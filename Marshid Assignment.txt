@@ -1,0 +1,221 @@
+1.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+
+class Ideone
+{public static void main(String[] args)
+{int a;
+Scanner s = new Scanner(System.in);
+System.out.println("Enter the number");
+a=s.nextInt();
+if(a>0)
+{System.out.println("Positive");}
+else if(a<0)
+{System.out.println("Negative");}
+else 
+{System.out.println("Zero");}}}
+
+
+
+
+
+
+
+  2.
+
+
+  import java.util.*;
+    import java.lang.*;
+    import java.io.*;
+     
+    class Ideone
+    {public static void main(String[] args)
+    {int a;
+    Scanner s = new Scanner(System.in);
+    a=s.nextInt();
+    int b=a%2;
+    if(b==0)
+       System.out.println("Number is even");
+    else
+    System.out.println("Number is odd");
+    }}
+
+	
+
+
+
+
+
+7.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a=5;
+		String s="Hello";
+	while(a>0)
+	{System.out.println(s);
+	a--;
+		
+	}
+}}
+
+
+
+
+
+6.
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a;
+		Scanner s = new Scanner(System.in);
+		a=s.nextInt();
+		if((a%4)==0)
+		System.out.println("Leap year");
+		else 
+		System.out.println("Not a leap year");
+	}}
+	
+
+
+
+
+
+5.
+
+
+
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a;
+		Scanner s = new Scanner(System.in);
+		a=s.nextInt();
+		 
+		 int b;
+		 b= s.nextInt();
+		 
+		 int c;
+		 c= s.nextInt();
+		 
+		if(a>b&&a>c)
+		System.out.println(a+"is highest");
+	   else if(b>a&&b>c)
+	   System.out.println(b+"is highest");
+	   else 
+	   System.out.println(c+"is highest");
+	}}
+
+
+
+
+
+
+3.
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		char a;
+		Scanner s = new Scanner(System.in);
+		a=s.next().toCharArray()[0];
+		 switch(a)
+		 {
+		 	case 'a':
+		 	case 'A':	
+		 	System.out.println("Its a vowel");
+		 	break;
+		 	
+		 	case 'e':
+		 	case 'E':
+		 		System.out.println("Its a vowel");
+		 	break;
+		 	
+		 	case 'i':
+            case 'I':
+		 	System.out.println("Its a vowel");
+		 	break;
+		 	
+		 	case 'o':
+		 	case 'O':
+		 	System.out.println("Its a vowel");
+		 	break;
+		 	
+		 	case 'u':
+		 	case 'U':
+		 	System.out.println("Its a vowel");
+		 	break;
+		 	
+		 	default :
+		 	System.out.println("Its a consonant");}}}
+
+
+
+
+
+
+
+8&9:
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int b=0;
+		int a;
+		Scanner s= new Scanner(System.in);
+		a=s.nextInt();
+		for(int i=a;i>0;i--)
+          {b=b+i;}
+          System.out.println(b);}}
+          
+
+
+
+
+
+
+
+10:
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{int a;
+	int c=0;
+	Scanner s=new Scanner(System.in);
+	a=s.nextInt();
+	for(int i=a;i>0;i=i/10)
+	c++;
+	System.out.println(c);}}
+
+
+
